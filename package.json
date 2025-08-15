@@ -1,0 +1,21 @@
+{
+  "name": "prompttheme",
+  "displayName": "PromptTheme",
+  "description": "A VS Code Theme designed with Claude-inspired tones, it offers clean contrasts and intuitive syntax highlights, who want a thoughtful, distraction-free coding experience.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "PromptTheme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/PromptTheme-color-theme.json"
+      }
+    ]
+  }
+}
